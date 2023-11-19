@@ -33,4 +33,5 @@ router.get('/set-password/:key', async(req, res) => {
 router.post('/api/v1/register', controller.registerUser);
 router.post('/api/v1/reset-password', controller.resetPassword);
 router.post('/api/v1/set-password', controller.setPassword);
+// router.get('/api/v1/login', controller.loginUser)
 module.exports = router
